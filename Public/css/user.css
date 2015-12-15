@@ -1,0 +1,13 @@
+#content-wrapper{min-height: 1000px;}
+.user-list label{min-width:66px;float: left; line-height: 34px; padding-right:10px;}
+.user-list input[type=text]{min-width:178px !important; width: 70% !important;}
+.user-list .col-lg-1{width: 230px !important;}
+.user-list .col-lg-2{width: 100px !important;}
+.user-list .col-lg-3{min-width: 260px !important;}
+.user-list .col-lg-4 .input-group{width:80%;min-width: 270px !important;}
+.user-list .col-lg-4{min-width: 350px !important;}
+.user-list .col-lg-1,.user-list .col-lg-2,.user-list .col-lg-3,.user-list .col-lg-4{padding: 0 5px;}
+.yishenhe{color: #006611;}
+.weishenhe{color: #FF0000;}
+.addtext{line-height: 34px;}
+.postAddUserBut{width: 100px;}

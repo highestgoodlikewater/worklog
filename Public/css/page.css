@@ -1,0 +1,36 @@
+.show-grid {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.table-view .row {
+	background: #fff;
+	margin: 0 10px;
+}
+.table-view .row:last-child {
+	background: #fff;
+	margin: 0px 10px 10px;
+}
+.table-view .row:first-child {
+	border-top: solid 2px #ddd;
+	background: #fff;
+	margin: 10px 10px 0px;
+}
+.show-grid [class^="col-"] {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+@media (max-width: 992px) {
+	.table-view .row {
+		border: none;
+	}
+	.table-view .row .col-md-4 {
+		border-bottom: solid 1px #ddd;
+	}
+	.table-view .row .col-md-10 {
+		border-bottom: solid 1px #ddd;
+	}
+}
+.profile-box-menu{
+	border: none;
+}
+.item-card a ,.item-card a:hover ,.item-card a:focus { color: #fff;}
